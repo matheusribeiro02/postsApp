@@ -1,0 +1,19 @@
+.post {
+  cursor: pointer;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.1s ease-in-out;
+  border-radius: 10px;
+}
+
+.post:hover {
+  transform: scale(1.03);
+}
+
+.post img {
+  max-width: 100%;
+}
+
+.post-content {
+  padding: 30px;
+}
